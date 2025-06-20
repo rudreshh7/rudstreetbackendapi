@@ -1,6 +1,6 @@
 const express = require('express');
 const { body } = require('express-validator');
-const ProductController = require('../controllers/ProductController.js');
+const ProductController = require('../controllers/ProductController');
 const { authenticateToken, requireRole } = require('../middlewares/auth.js');
 const { uploadProductImages, handleMulterError } = require('../middlewares/upload');
 
