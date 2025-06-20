@@ -1,5 +1,5 @@
-const User = require('../models/User');
-const Product = require('../models/Product');
+const User = require('../models/User.js');
+const Product = require('../models/Product.js');
 
 class AdminController {
   static async getDashboard(req, res) {
