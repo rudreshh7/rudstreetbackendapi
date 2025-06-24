@@ -33,4 +33,4 @@ if (process.env.DATABASE_URL) {
   });
 }
 
-module.exports = pool;
+module.exports = Pool;
