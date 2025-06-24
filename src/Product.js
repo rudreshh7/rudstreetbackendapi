@@ -1,4 +1,3 @@
-// const pool = require('../config/database.js');
 const pool = require('./database');
 class Product {
   static async create(productData) {

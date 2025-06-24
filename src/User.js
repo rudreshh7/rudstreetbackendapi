@@ -1,4 +1,3 @@
-// const pool = require('../config/database.js');
 const pool = require('./database')
 const bcrypt = require('bcryptjs');
 
