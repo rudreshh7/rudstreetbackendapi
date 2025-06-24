@@ -1,8 +1,9 @@
 const express = require('express');
 const { body } = require('express-validator');
-const ProductController = require('../controllers/ProductController');
-const { authenticateToken, requireRole } = require('../middlewares/auth.js');
-const { uploadProductImages, handleMulterError } = require('../middlewares/upload');
+const ProductController = require('./ProductController.js');
+const { authenticateToken, requireRole } = require('./auth.js');
+const { uploadProductImages, handleMulterError } = require('./upload.js');
+
 
 const router = express.Router();
 
