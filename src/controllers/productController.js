@@ -1,5 +1,6 @@
 const { validationResult } = require('express-validator');
-const Product = require('../models/Product.js');
+// const Product = require('../models/Product.js');
+const Product = require('../Product')
 const { deleteFiles } = require('../middlewares/upload.js');
 const path = require('path');
 
