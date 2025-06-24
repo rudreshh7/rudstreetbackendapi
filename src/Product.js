@@ -1,5 +1,5 @@
-const pool = require('../config/database.js');
-
+// const pool = require('../config/database.js');
+const pool = require('./database');
 class Product {
   static async create(productData) {
     const { name, description, price, category, stock_quantity, created_by, images } = productData;
